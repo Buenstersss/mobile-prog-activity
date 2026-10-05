@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Activity Portfolio - Kenneth</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Activity Portfolio - Kenneth</h1>
+</header>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h3>Activities</h3>
+
+<button onclick="activity8()">Toggle Background</button>
+<button onclick="activity9()">Toggle Dark Mode</button>
+<button onclick="activity10()">Add List Item</button>
+<button onclick="activity11()">Remove Paragraph</button>
+<button onclick="activity12()">Character Counter</button>
+<button onclick="activity13()">Addition Calculator</button>
+<button onclick="activity14()">Change Image</button>
+<button onclick="activity15()">Add To-Do Task</button>
+
+<button class="clear" onclick="clearOutput()">Clear</button>
+
+</div>
+
+<div class="main">
+
+<h3>Output</h3>
+<div id="output" class="output-box"></div>
+
+<h3>Code</h3>
+<div id="code" class="code-box"></div>
+
+<ul id="list"></ul>
+
+<p id="paragraph">This paragraph can be removed.</p>
+
+<input id="textInput" placeholder="Type something" oninput="activity12()">
+
+<br><br>
+
+<input id="num1" type="number" placeholder="Number 1">
+<input id="num2" type="number" placeholder="Number 2">
+
+<br><br>
+
+<img id="image" src="image1.jpg" width="200">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
